@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#f4e9e3" />
+<title>Apology to Akansha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="stage">
+  
+
+  <div class="envelope-wrap" id="envelopeWrap">
+    <p class="prompt-text">For Akansha</p>
+    <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open the letter">
+      <div class="letter-peek"></div>
+      <div class="envelope-body"></div>
+      <div class="flap"></div>
+      <div class="seal">A</div>
+    </div>
+    <p class="tap-hint">tap to open</p>
+  </div>
+
+  <div class="letter-wrap" id="letterWrap">
+    <div class="card">
+      <button class="music-fab" id="musicToggle" aria-label="Toggle music">🎵</button>
+      <p class="eyebrow">To Akansha</p>
+      <h1>I'm sorry — really, not just in words.</h1>
+
+      <div class="letter-body">
+        <p>I am not good with words, so I'll just say it plainly — I was wrong. What I said to you was harsh, and it wasn't fair, and I shouldn't have said it.</p>
+
+        <p>You have been a good friend to me. I didn't treat you like one that day. I keep thinking about it.</p>
+
+        <p>You already told me you forgive me. I am not writing this to hear it again. I just want you to know — I have noticed things are little different since then, and I know why.</p>
+
+        <p>I don't expect things to go back to normal right away. Take whatever time you need. I won't pretend everything's fine if it's not.</p>
+
+        <p>I am truly sorry. Really.</p>
+      </div>
+
+      <div class="signoff">
+        <span class="name">— Me 🙇</span>
+      </div>
+
+      <hr class="divider" />
+
+      <p class="note">No pressure to reply here. This was just for you to have, whenever you want it.</p>
+
+      <div class="actions">
+        <button class="action active" id="btnTalk">I'd like to talk when you're ready</button>
+        <button class="action" id="btnSpace">Take your time — no rush</button>
+      </div>
+
+      <p class="response" id="responseText"></p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Background music -->
+<audio id="bgMusic" preload="auto" playsinline webkit-playsinline>
+  <source src="assets/music/Suzume-No-Tojimari.mp3" type="audio/mpeg">
+</audio>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
