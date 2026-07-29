@@ -3,6 +3,7 @@ const envelopeWrap = document.getElementById('envelopeWrap');
 const letterWrap = document.getElementById('letterWrap');
 
 const bgMusic = document.getElementById('bgMusic');
+bgMusic.loop = true;
 let musicStarted = false;
 
 function playMusic() {
