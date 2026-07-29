@@ -1,4 +1,4 @@
-# 💌 Digital Apology Letter to Akansha
+# 💌 Digital Apology Letter to {Name}
 
 A minimalist, interactive digital apology letter designed with focus on sincere typography, gentle color psychology, and smooth user interactions. 
 
